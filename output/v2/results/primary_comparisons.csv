@@ -1,0 +1,13 @@
+h,comparison,test,stat,p,mean_sq_loss_diff_primary_minus_bench,conf_mean_sq_loss_diff,conf_stat,conf_p_unadjusted,p_holm,decision,confirmatory_same_sign,claim_supported
+1,ElasticNet-A vs Naive,Clark-West (one-sided),9.74646,0.00000,-5.67035,-10.86636,7.03581,0.00000,0.00000,primary better,True,True
+1,ElasticNet-A vs NaiveDOW,"HAC-DM, HLN (two-sided)",0.62614,0.53136,0.23693,0.38888,0.58296,0.56068,0.53136,no significant difference,True,False
+1,ElasticNet-A vs Comb,"HAC-DM, HLN (two-sided)",-3.11009,0.00192,-0.77757,-1.77122,-3.10193,0.00225,0.00384,primary better,True,True
+7,ElasticNet-A vs Naive,Clark-West (one-sided),2.31326,0.01035,-10.60223,-33.42697,3.03258,0.00121,0.03106,primary better,True,True
+7,ElasticNet-A vs NaiveDOW,"HAC-DM, HLN (two-sided)",-0.99704,0.31896,-11.11562,-33.66900,-2.73966,0.00680,0.63793,no significant difference,True,False
+7,ElasticNet-A vs Comb,"HAC-DM, HLN (two-sided)",0.04550,0.96372,0.35065,-14.86305,-2.70889,0.00743,0.96372,no significant difference,False,False
+14,ElasticNet-A vs Naive,Clark-West (one-sided),2.49974,0.00621,-48.24759,-125.67076,3.06773,0.00108,0.01864,primary better,True,True
+14,ElasticNet-A vs NaiveDOW,"HAC-DM, HLN (two-sided)",-1.08218,0.27941,-50.37126,-126.75084,-2.71812,0.00724,0.55882,no significant difference,True,False
+14,ElasticNet-A vs Comb,"HAC-DM, HLN (two-sided)",-0.15815,0.87437,-5.40840,-54.02213,-2.50111,0.01332,0.87437,no significant difference,True,False
+28,ElasticNet-A vs Naive,Clark-West (one-sided),2.65014,0.00402,-178.40164,-516.59043,4.20857,0.00001,0.01207,primary better,True,True
+28,ElasticNet-A vs NaiveDOW,"HAC-DM, HLN (two-sided)",-1.06826,0.28564,-185.99324,-521.71305,-3.43725,0.00074,0.57128,no significant difference,True,False
+28,ElasticNet-A vs Comb,"HAC-DM, HLN (two-sided)",-0.21987,0.82601,-29.41207,-284.63214,-3.13830,0.00200,0.82601,no significant difference,True,False

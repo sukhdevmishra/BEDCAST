@@ -1,0 +1,69 @@
+lane,group,stage,start_s,end_s,seconds,note
+ARIMA,stat,tune,0.0,121.6453,121.6453,
+SARIMA,stat,tune,121.6453,274.0554,152.4101,
+EMA,stat,tune,274.0554,274.6786,0.6232,
+ETS,stat,tune_untimed,274.6786,274.6786,0.0,tuning not logged by run_stat.py
+Benchmarks,bench,roll,274.6786,276.2089,1.5303,Naive
+Benchmarks,bench,roll,276.2089,276.4978,0.2889,NaiveDOW
+Benchmarks,bench,roll,276.4978,276.8063,0.3085,SeasonalNaive
+EMA,stat,roll,276.8063,277.2032,0.3969,
+ETS,stat,roll,277.2032,278.1971,0.9939,
+ARIMA,stat,roll,278.1971,292.1034,13.9063,
+SARIMA,stat,roll,292.1034,359.8795,67.7761,
+MLP h=1,nn,tune,0.0,1275.018,1275.018,
+MLP h=1,nn,roll,1275.018,4152.8746,2877.8566,
+MLP h=7,nn,tune,0.0,1019.1058,1019.1058,
+MLP h=7,nn,roll,1019.1058,2455.316,1436.2102,
+MLP h=14,nn,tune,0.0,754.4284,754.4284,
+MLP h=14,nn,roll,754.4284,1667.8195,913.3911,
+MLP h=28,nn,tune,0.0,1205.9231,1205.9231,
+MLP h=28,nn,roll,1205.9231,3252.7174,2046.7943,
+CNN h=1,nn,tune,0.0,1385.1798,1385.1798,
+CNN h=1,nn,roll,1385.1798,3325.185,1940.0052,
+CNN h=7,nn,tune,0.0,948.8179,948.8179,
+CNN h=7,nn,roll,948.8179,1964.3054,1015.4875,
+CNN h=14,nn,tune,0.0,831.4342,831.4342,
+CNN h=14,nn,roll,831.4342,1833.2932,1001.859,
+CNN h=28,nn,tune,0.0,800.6425,800.6425,
+CNN h=28,nn,roll,800.6425,1916.4651,1115.8226,
+LSTM h=1,nn,tune,0.0,2377.4913,2377.4913,
+LSTM h=1,nn,roll,2377.4913,5652.4952,3275.0039,
+LSTM h=7,nn,tune,0.0,1971.2072,1971.2072,
+LSTM h=7,nn,roll,1971.2072,4369.5942,2398.387,
+LSTM h=14,nn,tune,0.0,1791.9244,1791.9244,
+LSTM h=14,nn,roll,1791.9244,3657.4123,1865.4879,
+LSTM h=28,nn,tune,0.0,1866.4032,1866.4032,
+LSTM h=28,nn,roll,1866.4032,3454.8317,1588.4285,
+CNN-LSTM h=1,nn,tune,0.0,2127.7699,2127.7699,
+CNN-LSTM h=1,nn,roll,2127.7699,5176.968,3049.1981,
+CNN-LSTM h=7,nn,tune,0.0,1978.6315,1978.6315,
+CNN-LSTM h=7,nn,roll,1978.6315,3022.4015,1043.77,
+CNN-LSTM h=14,nn,tune,0.0,1793.1867,1793.1867,
+CNN-LSTM h=14,nn,roll,1793.1867,3667.3792,1874.1925,
+CNN-LSTM h=28,nn,tune,0.0,2251.1231,2251.1231,
+CNN-LSTM h=28,nn,roll,2251.1231,3956.1477,1705.0246,
+TDNN h=1,nn,tune,0.0,1065.8549,1065.8549,
+TDNN h=1,nn,roll,1065.8549,2924.3099,1858.455,
+TDNN h=7,nn,tune,0.0,797.641,797.641,
+TDNN h=7,nn,roll,797.641,2110.4293,1312.7883,
+TDNN h=14,nn,tune,0.0,794.9569,794.9569,
+TDNN h=14,nn,roll,794.9569,2128.7176,1333.7607,
+TDNN h=28,nn,tune,0.0,665.5665,665.5665,
+TDNN h=28,nn,roll,665.5665,1912.6934,1247.1269,
+ElasticNet (A),metaA,tune_untimed,5652.4952,5652.4952,0.0,tuning not logged by run_meta.py
+ElasticNet (A),metaA,meta,5652.4952,5655.6365,3.1413,76 fits (19 refits x 4 horizons)
+DecisionTree (A),metaA,tune_untimed,5652.4952,5652.4952,0.0,tuning not logged by run_meta.py
+DecisionTree (A),metaA,meta,5652.4952,5652.6269,0.1317,76 fits (19 refits x 4 horizons)
+RandomForest (A),metaA,tune_untimed,5652.4952,5652.4952,0.0,tuning not logged by run_meta.py
+RandomForest (A),metaA,meta,5652.4952,5655.0667,2.5715,76 fits (19 refits x 4 horizons)
+LightGBM (A),metaA,tune_untimed,5652.4952,5652.4952,0.0,tuning not logged by run_meta.py
+LightGBM (A),metaA,meta,5652.4952,5654.0124,1.5172,76 fits (19 refits x 4 horizons)
+ElasticNet (B),metaB,tune_untimed,5652.4952,5652.4952,0.0,tuning not logged by run_meta.py
+ElasticNet (B),metaB,meta,5652.4952,5659.7501,7.2549,76 fits (19 refits x 4 horizons)
+DecisionTree (B),metaB,tune_untimed,5652.4952,5652.4952,0.0,tuning not logged by run_meta.py
+DecisionTree (B),metaB,meta,5652.4952,5652.6524,0.1572,76 fits (19 refits x 4 horizons)
+RandomForest (B),metaB,tune_untimed,5652.4952,5652.4952,0.0,tuning not logged by run_meta.py
+RandomForest (B),metaB,meta,5652.4952,5660.2074,7.7122,76 fits (19 refits x 4 horizons)
+LightGBM (B),metaB,tune_untimed,5652.4952,5652.4952,0.0,tuning not logged by run_meta.py
+LightGBM (B),metaB,meta,5652.4952,5654.4666,1.9714,76 fits (19 refits x 4 horizons)
+"Meta stage, wall-clock",metaW,meta_wall,5652.4952,5676.2439,23.7487,upper bound: last merged base forecast to last meta output file (includes tuning and process start)

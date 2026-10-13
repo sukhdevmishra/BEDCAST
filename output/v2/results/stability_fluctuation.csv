@@ -1,0 +1,13 @@
+h,comparison,max_abs_fluctuation,critical_5pct_mu0.3,reject_stability
+1,ElasticNet-A vs Naive,5.8347,3.0676,True
+1,ElasticNet-A vs NaiveDOW,1.9442,3.0676,False
+1,ElasticNet-A vs Comb,2.8199,3.0676,False
+7,ElasticNet-A vs Naive,2.0870,3.0676,False
+7,ElasticNet-A vs NaiveDOW,2.0904,3.0676,False
+7,ElasticNet-A vs Comb,2.2901,3.0676,False
+14,ElasticNet-A vs Naive,2.2599,3.0676,False
+14,ElasticNet-A vs NaiveDOW,2.2613,3.0676,False
+14,ElasticNet-A vs Comb,1.9473,3.0676,False
+28,ElasticNet-A vs Naive,1.6867,3.0676,False
+28,ElasticNet-A vs NaiveDOW,1.6912,3.0676,False
+28,ElasticNet-A vs Comb,1.4424,3.0676,False

@@ -1,0 +1,85 @@
+h,model,cls,level,train_s,RelRMSE_naive,RMSE
+1,ARIMA,Statistical,Base,135.5516,0.9523,7.5563
+1,SARIMA,Statistical,Base,220.1862,0.9472,7.5152
+1,EMA,Statistical,Base,1.0201,0.9866,7.8284
+1,ETS,Statistical,Base,0.9939,1.0,7.9348
+1,MLP,Neural,Base,4152.8746,0.9922,7.8724
+1,CNN,Neural,Base,3325.185,0.9616,7.6301
+1,LSTM,Neural,Base,5652.4952,0.9542,7.5709
+1,CNN-LSTM,Neural,Base,5176.968,0.9545,7.5735
+1,TDNN,Neural,Base,2924.3099,0.9794,7.7707
+1,Naive,Benchmark,Base,1.5303,1.0,7.9345
+1,NaiveDOW,Benchmark,Base,0.2889,0.9519,7.5531
+1,SeasonalNaive,Benchmark,Base,0.3085,2.4397,19.3577
+1,Comb,Benchmark,Combination,356.7317,0.9604,7.6199
+1,ElasticNet-A,Meta,Meta (A),21589.6112,0.9539,7.5687
+1,DecisionTree-A,Meta,Meta (A),21589.643,1.0261,8.1419
+1,RandomForest-A,Meta,Meta (A),21590.5649,0.9602,7.6184
+1,LightGBM-A,Meta,Meta (A),21589.7,0.9705,7.7002
+1,ElasticNet-B,Meta,Meta (B),21591.8996,0.9566,7.5905
+1,DecisionTree-B,Meta,Meta (B),21589.6286,1.0212,8.1024
+1,RandomForest-B,Meta,Meta (B),21593.074,0.9638,7.6469
+1,LightGBM-B,Meta,Meta (B),21589.8412,0.9768,7.7502
+7,ARIMA,Statistical,Base,135.5516,1.0001,19.3602
+7,SARIMA,Statistical,Base,220.1862,0.9718,18.8121
+7,EMA,Statistical,Base,1.0201,1.015,19.6478
+7,ETS,Statistical,Base,0.9939,1.0,19.3586
+7,MLP,Neural,Base,2455.316,0.9808,18.9855
+7,CNN,Neural,Base,1964.3054,1.0009,19.3749
+7,LSTM,Neural,Base,4369.5942,1.0066,19.4853
+7,CNN-LSTM,Neural,Base,3022.4015,0.9987,19.3319
+7,TDNN,Neural,Base,2110.4293,0.9904,19.1725
+7,Naive,Benchmark,Base,1.5303,1.0,19.3577
+7,NaiveDOW,Benchmark,Base,0.2889,1.0007,19.371
+7,SeasonalNaive,Benchmark,Base,0.3085,1.0,19.3577
+7,Comb,Benchmark,Combination,356.7317,0.9853,19.0727
+7,ElasticNet-A,Meta,Meta (A),14280.8669,0.9858,19.0819
+7,DecisionTree-A,Meta,Meta (A),14279.8162,0.9791,18.9539
+7,RandomForest-A,Meta,Meta (A),14280.333,0.9765,18.9029
+7,LightGBM-A,Meta,Meta (A),14279.9689,0.9727,18.8296
+7,ElasticNet-B,Meta,Meta (B),14282.1574,0.9873,19.1112
+7,DecisionTree-B,Meta,Meta (B),14279.8345,0.9791,18.9539
+7,RandomForest-B,Meta,Meta (B),14280.5351,0.9769,18.9107
+7,LightGBM-B,Meta,Meta (B),14280.7154,1.0033,19.422
+14,ARIMA,Statistical,Base,135.5516,1.0,27.5236
+14,SARIMA,Statistical,Base,220.1862,0.942,25.9256
+14,EMA,Statistical,Base,1.0201,1.0026,27.5958
+14,ETS,Statistical,Base,0.9939,1.0,27.523
+14,MLP,Neural,Base,1667.8195,0.9708,26.7189
+14,CNN,Neural,Base,1833.2932,1.0226,28.1441
+14,LSTM,Neural,Base,3657.4123,0.9754,26.8462
+14,CNN-LSTM,Neural,Base,3667.3792,0.9533,26.2392
+14,TDNN,Neural,Base,2128.7176,1.0564,29.0745
+14,Naive,Benchmark,Base,1.5303,1.0,27.5232
+14,NaiveDOW,Benchmark,Base,0.2889,1.0014,27.5617
+14,SeasonalNaive,Benchmark,Base,0.3085,1.0,27.5232
+14,Comb,Benchmark,Combination,356.7317,0.9713,26.7336
+14,ElasticNet-A,Meta,Meta (A),13313.5159,0.9676,26.6323
+14,DecisionTree-A,Meta,Meta (A),13312.3944,0.9686,26.6586
+14,RandomForest-A,Meta,Meta (A),13312.9039,0.9538,26.2512
+14,LightGBM-A,Meta,Meta (A),13313.4218,0.9701,26.6996
+14,ElasticNet-B,Meta,Meta (B),13314.9287,0.9688,26.6655
+14,DecisionTree-B,Meta,Meta (B),13312.4166,0.9686,26.6586
+14,RandomForest-B,Meta,Meta (B),13312.87,0.9538,26.2512
+14,LightGBM-B,Meta,Meta (B),13313.0855,0.9747,26.8269
+28,ARIMA,Statistical,Base,135.5516,1.0,38.109
+28,SARIMA,Statistical,Base,220.1862,0.8867,33.7908
+28,EMA,Statistical,Base,1.0201,1.0005,38.1305
+28,ETS,Statistical,Base,0.9939,1.0,38.1098
+28,MLP,Neural,Base,3252.7174,0.9511,36.2465
+28,CNN,Neural,Base,1916.4651,0.9511,36.2461
+28,LSTM,Neural,Base,3454.8317,0.9632,36.7057
+28,CNN-LSTM,Neural,Base,3956.1477,0.9372,35.7175
+28,TDNN,Neural,Base,1912.6934,0.9588,36.5395
+28,Naive,Benchmark,Base,1.5303,1.0,38.1099
+28,NaiveDOW,Benchmark,Base,0.2889,1.0026,38.2094
+28,SeasonalNaive,Benchmark,Base,0.3085,1.0,38.1099
+28,Comb,Benchmark,Combination,356.7317,0.9473,36.1023
+28,ElasticNet-A,Meta,Meta (A),14851.5107,0.9366,35.6926
+28,DecisionTree-A,Meta,Meta (A),14850.6415,0.9489,36.1638
+28,RandomForest-A,Meta,Meta (A),14851.1331,0.9329,35.5515
+28,LightGBM-A,Meta,Meta (A),14850.7899,0.9205,35.0786
+28,ElasticNet-B,Meta,Meta (B),14850.6326,0.9374,35.7253
+28,DecisionTree-B,Meta,Meta (B),14850.6409,0.9489,36.1638
+28,RandomForest-B,Meta,Meta (B),14853.5965,0.9315,35.4982
+28,LightGBM-B,Meta,Meta (B),14850.6927,0.9191,35.0274
